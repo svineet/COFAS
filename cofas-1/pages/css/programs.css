@@ -1,0 +1,46 @@
+*{
+  font-family: 'Oxygen', sans-serif;
+  transition: all 0.25s;
+}
+
+#main{
+  background-color: #eceff1;
+  position: absolute;
+  height: 1000px;
+  padding: 10px;
+  left:15%;
+  right:15%;
+  box-shadow: 0 2px 4px rgba(100,100,100,.1);
+}
+
+#main h2{
+    color: #009688;
+    text-align: center;
+}
+
+#home {
+    width: 0;
+    height: 0;
+    border-top: 100px solid #009688;
+    border-right: 100px solid transparent;
+    position:fixed;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+#home a{
+    text-decoration:none;
+    color: #eceff1;
+    position: absolute;
+    top: -80px;
+    left:5px;
+    font-size: 20px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-shadow: 0 2px 4px rgba(100,100,100,.1);
+}
+#home a:hover{
+    color: #ffffff;
+}
