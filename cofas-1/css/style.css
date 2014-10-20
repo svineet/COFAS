@@ -7,7 +7,7 @@
 }
 
 #side {
-  background-color: #009688;
+  background-color: #006064;
   position: fixed;
   width:23%;
   height: 111%;
@@ -50,7 +50,7 @@
 }
 
 #main #blog_area h2 {
-  color:#009688;
+  color:#006064;
 }
 
 #main #blog_area ul {
@@ -59,7 +59,7 @@
 
 #main #blog_area ul a {
   text-decoration: none;
-  color: #009688;
+  color:#006064;
 }
 
 #t_content tr td {
@@ -89,7 +89,7 @@
 }
 
 #second h2 {
-  color: #009688;
+  color: #006064;
 }
 
 #peace_img {
@@ -120,7 +120,7 @@
 
   border-style:solid;
   border-width: 0 0 2px 0;
-  border-color: #33B5E5;
+  border-color: #b2dfdb;
 }
 
 #search_bar:focus {
@@ -151,6 +151,6 @@
 
 .underline {
   border-style: solid;
-  border-color: #0099CC;
+  border-color: #b2dfdb;
   border-width: 0 0 3px 0;
 }
