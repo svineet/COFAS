@@ -1,0 +1,81 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Open Sans', sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+/* Shout out stuff */
+
+.main_shout_out {
+    width: 100%;
+    padding: 2em;
+
+    font-size: 1.3em;
+    color: white;
+
+    background-color: #00bcd4;
+}
+
+.main_shout_out > center > h1, h2 {
+    font-family: 'Raleway';
+    font-size: 2.2em;
+}
+
+
+/* Link stuff */
+
+ul {
+    color: white;
+    font-family: 'Raleway';
+    font-weight: 300;
+
+    margin: 0 auto;
+    width: 50%;
+}
+
+ul > li {
+    list-style: none;
+    float: left;
+
+    width: 20% !important;
+    text-align: center;
+}
+
+ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-weight: 300;
+
+    padding-bottom: 2px;
+
+    border-style: solid;
+    border-color: #009688;
+    border-width: 0 0 3px 0;
+
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+ul > li > a:hover {
+    border-color: white;
+}
+
+/* Content Space */
+
+.content_space {
+    margin:0 auto;
+    width: 85%;
+
+    padding: 2em;
+
+    background-color: #03a9f4;
+    color: white;
+}
+
+
