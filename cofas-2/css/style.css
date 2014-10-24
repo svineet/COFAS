@@ -1,9 +1,12 @@
 * {
     margin: 0; padding: 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 
-    font-family: 'Open Sans', sans;
+    font-family: 'Lato', sans;
 }
+body, html { height:100%; width: 100%; }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -11,19 +14,57 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Shout out stuff */
 
+.peace_title {
+    font-size: 1.6em;
+}
+
 .main_shout_out {
+    display: block;
+
     width: 100%;
+    height: 100% !important;
     padding: 2em;
 
-    font-size: 1.3em;
     color: white;
 
-    background-color: #00bcd4;
+    background-color: #00bcd4; 
+    /* Fallback ^ */
+
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
 }
 
 .main_shout_out > center > h1, h2 {
     font-family: 'Raleway';
     font-size: 2.2em;
+}
+
+.learn_more {
+    width: 250px;
+
+    display: block;
+    margin: 0 auto;
+
+    font-size: 1.3em;
+    padding: 0.5em;
+    color: white;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 3.5px;
+
+    background-color: transparent;
+
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.learn_more:hover {
+    background-color: white;
+    color: #00bcd4;
+
 }
 
 
@@ -33,6 +74,7 @@ ul {
     color: white;
     font-family: 'Raleway';
     font-weight: 300;
+    font-size: 1.3em;
 
     margin: 0 auto;
     width: 70%;
