@@ -28,7 +28,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 
     background-color: #00bcd4;
-    /* Fallback ^ */
 }
 
 .main_shout_out > center > h1, h2 {
@@ -36,19 +35,26 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.2em;
 }
 
+/* Buttons */
+
 .flat_button {
     width: 250px;
+    padding: 0.5em;
 
     display: block;
     margin: 0 auto;
 
     font-size: 1.3em;
-    padding: 0.5em;
+    text-decoration: none;
     color: white;
-    border: 0;
+    text-align: center;
+    
+    border-style: solid;
+    border-color: white;
+    border-width: 3.5px;
     outline: none;
 
-    background-color: #006064; /* default color */
+    background-color: transparent;
 
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -60,36 +66,6 @@ h1, h2, h3, h4, h5, h6 {
     color: #00bcd4;
 }
 
-.flat_button > a {
-    text-decoration: none;
-    color: white;
-}
-
-.flat_button:hover >a {
-    color: #00bcd4;
-}
-
-/* Coloured Buttons */
-
-.red_button{
-    background-color: #e51c23;
-}
-
-.blue_button{
-    background-color: #00bcd4;
-}
-
-.green_button{
-    background-color: #259b24;
-}
-
-.yellow_button{
-    background-color: #ffeb3b;
-}
-
-.amber_button{
-    background-color: #ffc107;
-}
 
 /* Link stuff */
 
@@ -141,7 +117,7 @@ ul > li:hover {
     padding: 0.2em;
 }
 
-.page_slide{
+.page_slide {
     position: relative;
     margin:0 auto;
     width: 100%;
@@ -154,20 +130,24 @@ ul > li:hover {
 
 /* Coloured Pages */
 
-.cyan_page{
-    background-color: #00bcd4 !important;
+.cyan_page {
+    background-color: #00bcd4;
 }
 
-.teal_page{
-    background-color: #009688 !important;
+.teal_page {
+    background-color: #009688;
 }
 
-.green_page{
-    background-color: #259b24 !important;
+.green_page {
+    background-color: #259b24;
 }
 
-.orange_page{
-    background-color: #ff5722 !important;
+.red_page {
+    background-color: #e51c23;
+}
+
+.orange_page {
+    background-color: #ff5722;
 }
 
 .slide_content_main {
@@ -179,16 +159,26 @@ ul > li:hover {
 
 .slide_pic {
     width: 40%;
+    padding: 0.2em;
 
     border-style: solid;
     border-width: 3px;
     border-color: white;
 }
 
+.slide_pic > img {
+    width: 100%; height: 100%;
+}
+
 .slide_content_text {
     vertical-align: top;
     padding: 1em;
     width: 60%;
+}
+
+.slide_actual_text {
+    padding: 0.5em;
+    font-size: 1.1em;
 }
 
 
@@ -202,9 +192,13 @@ ul > li:hover {
     right: 5%;
     bottom: 10%;
 
-    background-color: #006064;
-    color: #eeeeee;
+    background-color: transparent;
+    color: white;
     text-align: center;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
 
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -218,6 +212,5 @@ ul > li:hover {
 }
 
 .scroll:hover{
-    background-color: #eeeeee;
-    color: #006064;
+    color: white;
 };
