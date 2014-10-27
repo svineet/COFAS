@@ -108,9 +108,14 @@ ul > li:hover {
     border-color: white;
 }
 
-ol > li {
+ol{
+    padding: 10px;
+}
+
+ol > h2 > li {
     list-style: none;
-    padding: 15px;
+    text-align: center;
+    padding: 5px; 
 }
 
 /* Slides */
@@ -159,6 +164,14 @@ ol > li {
     background-color: #3f51b5;
 }
 
+.blue_page{
+    background-color: #006064;
+}
+
+.amber_page{
+    background-color: #ff6f00;
+}
+
 .slide_content_main {
     border: none;
 
@@ -167,7 +180,7 @@ ol > li {
 }
 
 .slide_pic {
-    width: 40%;
+    width: 50%;
     padding: 0.2em;
 
     border-style: solid;
@@ -177,24 +190,6 @@ ol > li {
 
 .slide_pic > img {
     width: 100%; height: 100%;
-}
-
-.small_slide_pic {
-    height: 15%;
-    width: 15%;
-    padding: 0.2em;
-
-    border-style: solid;
-    border-width: 3px;
-    border-color: #eeeeee;
-}
-
-.right_pic{
-    float:right;
-}
-
-.left_pic{
-    float:left;
 }
 
 .slide_content_text {
