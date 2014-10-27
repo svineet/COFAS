@@ -108,6 +108,12 @@ ul > li:hover {
     border-color: white;
 }
 
+ol > li {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
 /* Slides */
 
 .underlined_slide_title {
@@ -212,5 +218,6 @@ ul > li:hover {
 }
 
 .scroll:hover{
-    color: white;
+    background-color: white;
+    color: #00bcd4;
 };
