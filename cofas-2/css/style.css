@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Link stuff */
 
-ul {
+ul.link-effect {
     color: white;
     font-family: 'Raleway';
     font-weight: 300;
@@ -79,11 +79,11 @@ ul {
     width: 70%;
 }
 
-ul > li {
+ul.link-effect > li {
     list-style: none;
     float: left;
 
-    width: 20% !important;
+    width: 20%;
     text-align: center;
 
     padding-bottom: 2px;
@@ -97,14 +97,14 @@ ul > li {
     transition: all 0.5s;
 }
 
-ul > li > a {
+ul.link-effect > li > a {
     font-family: 'Raleway';
     color: white;
     text-decoration: none;
     font-weight: 400;
 }
 
-ul > li:hover {
+ul.link-effect > li:hover {
     border-color: white;
 }
 
