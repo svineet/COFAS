@@ -109,7 +109,16 @@ ul.link-effect > li:hover {
 }
 
 ol{
+    list-style: circle;
+}
+
+ol > li {
     padding: 10px;
+}
+
+ol>li::first-letter{
+    font-weight: bold;
+    font-size: 1.3em;
 }
 
 ol > h2 > li {
