@@ -118,6 +118,19 @@ ol > h2 > li {
     padding: 5px; 
 }
 
+ol > h2 > li > a {
+    color: #cfd8dc;
+    text-decoration: none;
+
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+ol > h2 > li > a:hover{
+    color: white;
+}
+
 /* Slides */
 
 .underlined_slide_title {
