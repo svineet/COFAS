@@ -258,4 +258,21 @@ ol > h2 > li > a:hover{
 .scroll:hover{
     background-color: white;
     color: #00bcd4;
-};
+}
+
+/* Misc */
+
+.concluding_content {
+    width: 70%;
+    margin: 0 auto;
+
+    font-size: 1.4em;
+}
+.concluding_content p {
+    padding: 1em;
+}
+
+p::first-letter {
+  font-weight: bold;
+  font-size: 1.3em;
+}
